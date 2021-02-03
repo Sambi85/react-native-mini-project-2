@@ -10,6 +10,5 @@ const navigator = createStackNavigator({
     title: 'Business Search'
   }
 });
-// test ======
 
 export default createAppContainer(navigator);
