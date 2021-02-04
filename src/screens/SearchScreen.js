@@ -34,7 +34,7 @@ const SearchScreen = () => {
             />
             
             <Text>Search Screen</Text>
-            <Text>{errorMessage}</Text>
+            { errorMessage ? <Text>{errorMessage}</Text> : null}
             <Text>We have found {results.length} results</Text>
         </View>
     );
