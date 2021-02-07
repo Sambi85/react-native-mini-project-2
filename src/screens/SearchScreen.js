@@ -7,7 +7,7 @@ import ResultsList from '../components/ResultsList';
 const SearchScreen = () => {
     const [term, setTerm] = useState('');
     const [searchApi, results, errorMessage] = useResults();
-
+console.log(results)
     const filteredResultsByPrice = (price) => {
         return results.filter(result => {
             return result.price === price;
@@ -19,7 +19,7 @@ const SearchScreen = () => {
             <SearchBar 
                 term={term} 
                 onTermChange={setTerm}
-                onTermSubmit={searchApi}
+                onTermSubmit={() => searchApi(term)}
             />
             
             <Text>Search Screen</Text>
