@@ -22,9 +22,7 @@ console.log(results)
                 onTermSubmit={() => searchApi(term)}
             />
             
-            <Text>Search Screen</Text>
             { errorMessage ? <Text>{errorMessage}</Text> : null}
-            <Text>We have found {results.length} results</Text>
             <ScrollView>
             <ResultsList results={filteredResultsByPrice('$')} title="Cost Effective"/>
             <ResultsList results={filteredResultsByPrice('$$')} title="Bit Pricer" />
