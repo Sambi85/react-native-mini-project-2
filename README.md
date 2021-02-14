@@ -1,8 +1,8 @@
 # react-native-mini-project-2
 
-Yelp App with React Native
+Yelp App with React Native (uses Yelp Fusion API)
 
-Summary: I built this app using the following course I purchased on Udemy. It was fun way to learn and build an application using React Native.
+Notes: I built this app using the following course I purchased on Udemy. It was fun way to learn and build an application using React Native.
 
 Udemy Course: The Complete React Native + Hooks Course [2020 Edition]
 by Stephen Grider
