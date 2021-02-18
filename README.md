@@ -15,3 +15,4 @@ Summary:
 - Prototype and deploy your own applications to the Apple and Google Play Stores
 - Get up to speed with React design principles and methodologies
 - Discover mobile design patterns used by experienced engineers
+
